@@ -1,0 +1,308 @@
+prompt
+
+
+## 1. Branding & Theme
+
+**Application Name:**
+**My Wallet Is Full**
+
+The application is a modern personal finance manager that helps users record daily expenses, monitor monthly budgets, build savings habits, and achieve long-term financial goals.
+
+### Logo
+
+Use the provided logo file:
+
+> **"My Wallet Is Full.png"**
+
+Use this logo consistently throughout the application:
+
+* Splash Screen
+* Login Screen
+* Home Dashboard
+* Navigation Drawer
+* About Page
+* App Icon
+* Loading Screen
+
+Do **NOT** redesign or replace the logo.
+
+---
+
+## 2. Visual Design Language
+
+Design Style:
+
+* Minimalistic
+* Modern
+* Clean
+* Spacious
+* Premium
+* Financial Dashboard
+* Material Design 3
+
+Color Palette:
+
+* Soft pastel green
+* Soft pastel blue
+* White
+* Light gray
+* Very subtle shadows
+* Rounded corners (16–20 px)
+
+Avoid:
+
+* Neon colors
+* Bright gradients
+* Heavy glassmorphism
+* Busy backgrounds
+* Large illustrations
+* Unnecessary decorative graphics
+
+The interface should feel similar to high-quality finance apps like **Monarch Money**, **YNAB**, or **Google Wallet**, while maintaining its own identity.
+
+---
+
+## 3. Dark Mode
+
+Provide a complete Dark Mode.
+
+Requirements:
+
+* Automatic system detection
+* Manual toggle
+* Consistent color tokens
+* Maintain accessibility and contrast
+* Charts automatically adapt
+* Icons remain visible
+* No duplicated layouts
+
+---
+
+## 4. Cloud Synchronization
+
+Implement seamless cloud synchronization.
+
+Support:
+
+* Google Sign-In
+* Firebase Authentication
+* Cloud Firestore
+* Offline-first architecture
+* Automatic background synchronization
+* Cross-device synchronization
+
+When the user signs in on another phone, all data should be restored automatically.
+
+---
+
+# IMPORTANT — DO NOT USE DEMO DATA
+
+**This is a strict requirement.**
+
+The application must **never** pre-populate financial information.
+
+Do **NOT** generate or display example values such as:
+
+❌ Salary ₹50,000
+
+❌ Monthly Income ₹75,000
+
+❌ Food ₹8,000
+
+❌ Shopping ₹3,500
+
+❌ Rent ₹15,000
+
+❌ Savings Goal ₹100,000
+
+❌ Sample Transactions
+
+❌ Demo Charts
+
+❌ Placeholder Financial Reports
+
+❌ Fake Analytics
+
+The application must launch with **empty user data**.
+
+Only the UI structure should be visible.
+
+---
+
+# First-Time User Experience
+
+When a new user opens the app for the first time:
+
+Display an empty dashboard.
+
+Use friendly empty states such as:
+
+> "No expenses added yet."
+
+> "Start tracking your finances."
+
+> "Add your first expense."
+
+> "Create your first savings goal."
+
+Charts should display an empty state instead of fake data.
+
+---
+
+# Expense Entry Screen
+
+Do **NOT** ask the user for predicted expenses or estimated budgets.
+
+The application should provide only the following simple input fields.
+
+```
+Monthly Income
+
+₹
+```
+
+```
+Expenses
+
+Rent
+
+Food
+
+Transport
+
+Electricity
+
+Internet
+
+Mobile
+
+EMI
+
+Subscriptions
+
+Shopping
+
+Entertainment
+
+Investments
+
+Savings
+
+Others
+
+Goal
+```
+
+Requirements:
+
+* Every field starts empty.
+* No default values.
+* No placeholder currency amounts.
+* No AI-generated expense suggestions.
+* No estimated monthly spending.
+* No automatic budget creation.
+* The user manually enters every value.
+
+---
+
+# Bento Grid Expense Input
+
+Create a Bento Grid–style form using soft pastel colors.
+
+Cards should include:
+
+**Monthly Income**
+
+```
+₹
+```
+
+**Expenses**
+
+```
+Rent
+
+Food
+
+Transport
+
+Electricity
+
+Internet
+
+Mobile
+
+EMI
+
+Subscriptions
+
+Shopping
+
+Entertainment
+
+Investments
+
+Savings
+
+Others
+```
+
+**Goal**
+
+Large multiline text area
+
+Examples:
+
+* Buy a Laptop
+* Emergency Fund
+* Vacation
+* New Bike
+
+Do not pre-fill any goals.
+
+---
+
+# Dashboard Behavior
+
+The dashboard should initially display:
+
+* Current Balance → —
+* Monthly Income → —
+* Monthly Expenses → —
+* Savings → —
+* Investments → —
+* Budget Progress → Empty
+* Charts → Empty State
+* Recent Transactions → Empty
+
+Display helpful messages such as:
+
+> "Add your first expense to begin tracking."
+
+instead of fake analytics.
+
+---
+
+# User-Controlled Data Only
+
+Every chart, card, statistic, recommendation, budget, and AI insight must be generated **only** from user-entered data.
+
+The application must never invent:
+
+* Salary
+* Expenses
+* Investments
+* Savings
+* Goals
+* Transactions
+* Reports
+* Analytics
+* Predictions
+
+No financial information should appear until the user has entered it.
+
+---
+
+# Overall Experience
+
+The application should feel calm, uncluttered, and trustworthy. It should prioritize fast expense entry, clear financial visibility, and long-term savings management. Every screen should emphasize simplicity, with plenty of whitespace, subtle animations, and intuitive navigation. The design should remain data-driven, showing only information the user has explicitly entered rather than relying on mock or demo content. This ensures a clean first-run experience and builds user trust from the start.

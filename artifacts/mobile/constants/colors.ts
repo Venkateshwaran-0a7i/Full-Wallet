@@ -1,0 +1,60 @@
+/**
+ * Design tokens for My Wallet Is Full.
+ * Forest-green palette inspired by the wallet logo.
+ */
+
+const colors = {
+  light: {
+    text: '#0A1F14',
+    tint: '#1B6B3A',
+    background: '#F7FAFB',
+    foreground: '#0A1F14',
+    card: '#FFFFFF',
+    cardForeground: '#0A1F14',
+    primary: '#1B6B3A',
+    primaryForeground: '#FFFFFF',
+    secondary: '#E8F5EE',
+    secondaryForeground: '#0A1F14',
+    muted: '#EFF3F1',
+    mutedForeground: '#6B8A76',
+    accent: '#D1E8FF',
+    accentForeground: '#0A2A4A',
+    destructive: '#EF4444',
+    destructiveForeground: '#FFFFFF',
+    border: '#DDE8E2',
+    input: '#E8F0EA',
+    success: '#22C55E',
+    warning: '#F59E0B',
+    income: '#16A34A',
+    expense: '#EF4444',
+    savings: '#3B82F6',
+  },
+  dark: {
+    text: '#E8F5EE',
+    tint: '#4ADE80',
+    background: '#0A1810',
+    foreground: '#E8F5EE',
+    card: '#122318',
+    cardForeground: '#E8F5EE',
+    primary: '#4ADE80',
+    primaryForeground: '#0A1810',
+    secondary: '#1A3225',
+    secondaryForeground: '#C5E8CF',
+    muted: '#162B1E',
+    mutedForeground: '#6BA07A',
+    accent: '#1E3356',
+    accentForeground: '#A8CAEF',
+    destructive: '#F87171',
+    destructiveForeground: '#0A1810',
+    border: '#1A3225',
+    input: '#1A3225',
+    success: '#4ADE80',
+    warning: '#FCD34D',
+    income: '#4ADE80',
+    expense: '#F87171',
+    savings: '#60A5FA',
+  },
+  radius: 16,
+};
+
+export default colors;
