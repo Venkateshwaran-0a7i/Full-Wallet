@@ -29,23 +29,23 @@ export const FloatingNavBar = ({ theme, toggleTheme }) => {
         className="glass-panel"
         animate={{
           padding: scrolled ? '12px 24px' : '16px 32px',
-          width: scrolled ? '800px' : '1200px',
+          maxWidth: scrolled ? '800px' : '1200px',
         }}
         style={{
+          width: '100%',
           display: 'flex',
           justifyContent: 'space-between',
           alignItems: 'center',
-          maxWidth: '100%',
           borderRadius: '999px',
           background: 'var(--nav-bg)'
         }}
       >
-        <div style={{ display: 'flex', alignItems: 'center', gap: '12px', fontWeight: 'bold', fontSize: '1.25rem' }} className="brand-font">
-          <Wallet color="var(--accent-yellow-dark)" />
+        <div className="brand-font nav-brand" style={{ display: 'flex', alignItems: 'center', gap: '12px', fontWeight: 'bold', fontSize: '1.25rem' }}>
+          <img src="https://github.com/Venkateshwaran-0a7i/Full-Wallet/blob/b11145ff81c99add1fbad231245f7ce1d12bb8f3/Logo/Full%20Wallet.png?raw=true" alt="Full Wallet" width="32" height="32" style={{ borderRadius: '8px' }} />
           <span>Full Wallet</span>
         </div>
         
-        <div style={{ display: 'flex', gap: '32px', alignItems: 'center' }}>
+        <div className="nav-links" style={{ display: 'flex', gap: '32px', alignItems: 'center' }}>
           <a href="#features" style={{ color: 'var(--text-secondary)', textDecoration: 'none', fontWeight: 500 }}>Features</a>
           <a href="#setup" style={{ color: 'var(--text-secondary)', textDecoration: 'none', fontWeight: 500 }}>Setup</a>
           

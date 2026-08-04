@@ -148,3 +148,28 @@ h1, h2, h3, h4, h5, h6, .brand-font {
     radial-gradient(at 100% 100%, rgba(167, 139, 250, 0.1) 0px, transparent 50%),
     radial-gradient(at 0% 100%, rgba(134, 239, 172, 0.1) 0px, transparent 50%);
 }
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .text-hero {
+    text-align: center;
+  }
+  .hero-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .hero-buttons {
+    justify-content: center;
+  }
+  .section-padding {
+    padding: 60px 0;
+  }
+  .nav-links {
+    gap: 16px !important;
+  }
+  .nav-brand span {
+    display: none;
+  }
+}

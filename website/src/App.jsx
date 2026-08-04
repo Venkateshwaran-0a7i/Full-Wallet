@@ -52,7 +52,8 @@ function App() {
           minHeight: '75vh', gap: '48px', marginBottom: '80px' 
         }}>
           <motion.div 
-            style={{ flex: '1 1 500px' }}
+            className="hero-text-container"
+            style={{ flex: '1 1 min(100%, 500px)' }}
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, type: 'spring' }}
@@ -63,11 +64,11 @@ function App() {
             <p className="text-body" style={{ marginBottom: '40px', maxWidth: '480px', fontSize: '1.25rem' }}>
               A modern, secure and user-friendly digital wallet application. Track expenses, monitor income, and achieve your financial goals with ease.
             </p>
-            <div style={{ display: 'flex', gap: '20px', alignItems: 'center', flexWrap: 'wrap' }}>
+            <div className="hero-buttons" style={{ display: 'flex', gap: '20px', alignItems: 'center', flexWrap: 'wrap' }}>
               <PillButton 
                 variant="primary" 
                 icon={Download} 
-                href="../Application/Full Wallet.apk" 
+                href="https://drive.google.com/file/d/1gpXgn-QY59hnvxKwovHX3PNZUaFmOzYL/view?usp=sharing" 
                 download="Full Wallet.apk"
                 onClick={handleDownloadClick}
               >
@@ -101,7 +102,7 @@ function App() {
           </motion.div>
           
           <motion.div 
-            style={{ flex: '1 1 400px', display: 'flex', justifyContent: 'center' }}
+            style={{ flex: '1 1 min(100%, 400px)', display: 'flex', justifyContent: 'center' }}
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}
