@@ -1,68 +1,92 @@
+<div align="center">
+
+<img src="logo/logo.png" alt="Full Wallet Logo" width="150"/>
+
 # 💸 Full Wallet
 
-<div align="center">
+### Smart • Secure • Modern Personal Finance Management
 
-![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?style=for-the-badge&logo=flutter)
-![Dart](https://img.shields.io/badge/Dart-3.x-0175C2?style=for-the-badge&logo=dart)
-![Platform](https://img.shields.io/badge/Platform-Android-success?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
-
-### A modern, secure and user-friendly digital wallet application for managing your finances effortlessly.
-
-⭐ If you like this project, don't forget to **Star** this repository!
-
-</div>
----
-
-## 🌐 Premium Website & Design Language
-
-The promotional website for **Full Wallet** has been completely reimagined into a premium, enterprise-grade AI platform experience. 
-
-- **Liquid Morphism**: Utilizing frosted glass, smooth shadows, and floating depth.
-- **Dynamic Themes**: Beautiful Light (Soft Yellow/Pink) and Dark (Soft Purple/Green) modes.
-- **Typography**: Powered by the elegant **Korigan ITC Std Light** and Inter fonts.
-- **Stack**: Built with React, Vite, Framer Motion, and Lucide React.
-
-Check out the `website` directory to run the React application locally!
-
----
-
-## 📱 App Preview
-
-<p align="center">
-<img src="preview.png" width="300">
+<p>
+  <a href="https://venkateshwaran-0a7i.github.io/Full-Wallet/">
+    <img src="https://img.shields.io/badge/🌐_Live_Website-Visit_Now-2563EB?style=for-the-badge">
+  </a>
+  <a href="https://github.com/Venkateshwaran-0a7i/Full-Wallet/tree/main/Application">
+    <img src="https://img.shields.io/badge/📱_Download_APK-Latest_Version-34A853?style=for-the-badge">
+  </a>
 </p>
 
----
+![Android](https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-2.x-7F52FF?style=for-the-badge&logo=kotlin)
+![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-Material%203-4285F4?style=for-the-badge)
+![Room](https://img.shields.io/badge/Room-Database-00C853?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 
-# 🚀 Download the App
+A modern Android wallet application built with **Kotlin** and **Jetpack Compose** that enables users to efficiently manage income, expenses, savings, and financial insights through an elegant Material Design interface.
 
-<div align="center">
-
-# 📥 **[⬇ Download Latest APK](YOUR_APP_LINK)**
-
-> Install the latest version directly on your Android device.
+⭐ **If you like this project, please consider giving it a Star!**
 
 </div>
+
+---
+
+# 🌐 Live Website
+
+Visit the official Full Wallet website to explore the application, features, screenshots, and download links.
+
+## 🔗 https://venkateshwaran-0a7i.github.io/Full-Wallet/
+
+---
+
+# 📱 Download the Android App
+
+The latest APK is available inside the repository.
+
+## 📥 Download APK
+
+**Application Folder**
+
+https://github.com/Venkateshwaran-0a7i/Full-Wallet/tree/main/Application
+
+---
+
+# 🔗 Project Links
+
+| Resource | Link |
+|----------|------|
+| 🌐 Live Website | https://venkateshwaran-0a7i.github.io/Full-Wallet/ |
+| 📂 GitHub Repository | https://github.com/Venkateshwaran-0a7i/Full-Wallet |
+| 📱 Android APK | https://github.com/Venkateshwaran-0a7i/Full-Wallet/tree/main/Application |
+
+---
+
+# 📱 App Preview
+
+<p align="center">
+
+<img src="screenshots/home.png" width="220"/>
+
+</p>
 
 ---
 
 # ✨ Features
 
-- 💰 Track Wallet Balance
-- 📊 Expense Management
+- 💰 Wallet Dashboard
+- 💸 Expense Tracking
 - 💵 Income Tracking
+- 📊 Financial Analytics
 - 📅 Transaction History
-- 🔍 Smart Search & Filters
-- 📈 Financial Insights
+- 🔍 Smart Search
+- 📂 Category Management
 - 🌙 Dark Mode
-- 🔐 Secure Authentication
-- ⚡ Fast & Responsive UI
-- 📱 Beautiful Material Design
+- 🔐 Secure Local Storage
+- ⚡ Fast Performance
+- 🎨 Material Design 3 UI
+- 📱 Responsive User Interface
 
 ---
 
-# 📸 Screenshots
+# 🖼 Screenshots
 
 | Home | Transactions | Analytics |
 |------|--------------|-----------|
@@ -70,36 +94,71 @@ Check out the `website` directory to run the React application locally!
 
 ---
 
-# 🛠 Tech Stack
+# 🌐 Premium Website
 
-| Technology | Usage |
-|------------|-------|
-| Flutter | Frontend |
-| Dart | Programming Language |
-| Firebase / Local Storage | Database |
-| Provider / Riverpod | State Management |
-| REST API | Backend Communication |
+The project includes a modern promotional website built using React and Vite.
 
----
+### Highlights
 
-# 📂 Project Structure
+- ✨ Glassmorphism UI
+- 🌗 Dark & Light Themes
+- 🎭 Smooth Framer Motion Animations
+- ⚡ Lightning Fast Performance
+- 📱 Responsive Design
+- 🎨 Premium Typography
+- 🚀 GitHub Pages Deployment
+
+Website Source
 
 ```
-lib/
-├── models/
-├── services/
-├── providers/
-├── screens/
-├── widgets/
-├── utils/
-├── constants/
-├── routes/
-└── main.dart
+website/
 ```
 
 ---
 
-# ⚙ Getting Started
+# 🛠 Technology Stack
+
+## Android Application
+
+- Kotlin
+- Jetpack Compose
+- Material Design 3
+- Room Database
+- ViewModel
+- Navigation Compose
+- Coroutines
+
+## Website
+
+- React
+- Vite
+- TypeScript
+- Framer Motion
+- Tailwind CSS
+- Lucide React
+
+---
+
+# 📂 Repository Structure
+
+```
+Full-Wallet
+│
+├── Application/            # APK Releases
+├── app/                    # Android Source Code
+├── assets/
+├── logo/                   # Project Logo
+├── screenshots/
+├── website/                # React Website
+│
+├── README.md
+├── LICENSE
+└── build.gradle.kts
+```
+
+---
+
+# 🚀 Getting Started
 
 ## Clone Repository
 
@@ -113,107 +172,167 @@ Move into project
 cd Full-Wallet
 ```
 
-Install dependencies
+---
+
+## Android Application
+
+Open the project using **Android Studio**.
+
+Build
 
 ```bash
-flutter pub get
+./gradlew assembleDebug
 ```
 
-Run the project
+Run
 
 ```bash
-flutter run
+./gradlew installDebug
 ```
 
 ---
 
-# 📦 Build APK
+## Website
+
+Navigate to the website folder.
 
 ```bash
-flutter build apk --release
+cd website
 ```
 
-APK Location
+Install dependencies.
+
+```bash
+npm install
+```
+
+Start development server.
+
+```bash
+npm run dev
+```
+
+Build production website.
+
+```bash
+npm run build
+```
+
+---
+
+# 📦 Build Release APK
+
+```bash
+./gradlew assembleRelease
+```
+
+Generated APK
 
 ```
-build/app/outputs/flutter-apk/app-release.apk
+app/build/outputs/apk/release/
 ```
 
 ---
 
 # 📈 Roadmap
 
-- [x] Wallet Dashboard
-- [x] Transaction History
-- [x] Expense Tracking
-- [x] Income Tracking
-- [ ] Budget Planner
-- [ ] Cloud Backup
-- [ ] Notifications
-- [ ] Multi-Currency Support
+- ✅ Wallet Dashboard
+- ✅ Expense Tracking
+- ✅ Income Tracking
+- ✅ Transaction History
+- ✅ Analytics Dashboard
+- ✅ Dark Theme
+- ⏳ Budget Planning
+- ⏳ Cloud Synchronization
+- ⏳ Export Reports
+- ⏳ Multi-Currency Support
+- ⏳ Fingerprint Authentication
+- ⏳ Backup & Restore
 
 ---
 
 # 🤝 Contributing
 
-Contributions are always welcome!
+Contributions are welcome.
 
-1. Fork this repository
-2. Create a new branch
+1. Fork the repository.
+
+2. Create a feature branch.
 
 ```bash
 git checkout -b feature-name
 ```
 
-3. Commit your changes
+3. Commit your changes.
 
 ```bash
 git commit -m "Added new feature"
 ```
 
-4. Push to GitHub
+4. Push your branch.
 
 ```bash
 git push origin feature-name
 ```
 
-5. Open a Pull Request
+5. Create a Pull Request.
 
 ---
 
 # 👨‍💻 Developer
 
-**Venkateshwaran Mani**
+## Venkateshwaran Mani
 
-🔗 GitHub  
+### 🌐 Portfolio
+
+https://venkateshwaran-0a7i.github.io/Venkateshwaran_Mani_Portfolio/
+
+### 💻 GitHub
+
 https://github.com/Venkateshwaran-0a7i
+
+### 🌍 Full Wallet Website
+
+https://venkateshwaran-0a7i.github.io/Full-Wallet/
 
 ---
 
 # ⭐ Support
 
-If this project helped you,
+If you found this project useful,
 
-🌟 Star this repository
+⭐ Star the repository
 
-🍴 Fork it
+🍴 Fork the project
 
-📢 Share it
+🐞 Report bugs
+
+💡 Suggest new features
+
+📢 Share it with your friends
 
 ---
 
-# 📥 Download Now
+# 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
 
 <div align="center">
 
-## 🚀 **[⬇ CLICK HERE TO DOWNLOAD THE APP](YOUR_APP_LINK)**
+## 💸 Full Wallet
 
-**Experience a smarter way to manage your money.**
+### Manage Your Money Smarter.
+
+🌐 Website
+
+https://venkateshwaran-0a7i.github.io/Full-Wallet/
+
+📱 Android APK
+
+https://github.com/Venkateshwaran-0a7i/Full-Wallet/tree/main/Application
+
+⭐ Don't forget to Star this repository if you like the project!
 
 </div>
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
