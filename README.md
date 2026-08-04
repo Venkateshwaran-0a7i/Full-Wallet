@@ -59,16 +59,6 @@ https://drive.google.com/file/d/1gpXgn-QY59hnvxKwovHX3PNZUaFmOzYL/view?usp=shari
 
 ---
 
-# 📱 App Preview
-
-<p align="center">
-
-<img src="screenshots/home.png" width="220"/>
-
-</p>
-
----
-
 # ✨ Features
 
 - 💰 Wallet Dashboard
@@ -90,7 +80,7 @@ https://drive.google.com/file/d/1gpXgn-QY59hnvxKwovHX3PNZUaFmOzYL/view?usp=shari
 
 | Home | Transactions | Analytics |
 |------|--------------|-----------|
-| ![](screenshots/home.png) | ![](screenshots/transactions.png) | ![](screenshots/analytics.png) |
+| ![](Screenshots/Home.jpeg) | ![](Screenshots/Transaction.jpeg) | ![](Screenshots/Analytics.jpeg) |
 
 ---
 
