@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-export const PillButton = ({ children, variant = 'primary', onClick, href, download, icon: Icon }) => {
+export const PillButton = ({ children, variant = 'primary', onClick, href, download, icon: Icon, ...rest }) => {
   const isPrimary = variant === 'primary';
   
   const baseStyles = {
@@ -47,7 +47,7 @@ export const PillButton = ({ children, variant = 'primary', onClick, href, downl
   };
 
   const MotionComponent = href ? motion.a : motion.button;
-  const props = href ? { href, download } : { onClick };
+  const props = href ? { href, download, ...rest } : { onClick, ...rest };
 
   return (
     <MotionComponent

@@ -68,8 +68,9 @@ function App() {
               <PillButton 
                 variant="primary" 
                 icon={Download} 
-                href="https://drive.google.com/file/d/1gpXgn-QY59hnvxKwovHX3PNZUaFmOzYL/view?usp=sharing" 
-                download="Full Wallet.apk"
+                href="https://drive.google.com/file/d/1gpXgn-QY59hnvxKwovHX3PNZUaFmOzYL/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={handleDownloadClick}
               >
                 Download APK
